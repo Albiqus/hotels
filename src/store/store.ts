@@ -1,8 +1,11 @@
+import { pages } from './reducers/pages';
+import { content } from './reducers/content';
 import { createStore, combineReducers } from "redux";
 
 
 let reducers = combineReducers({
-
+    content,
+    pages
 })
 
 let store = createStore(reducers)

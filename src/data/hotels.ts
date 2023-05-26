@@ -1,4 +1,8 @@
-export const HOTELS = [
+import { Hotel } from "../types/Hotel";
+import { PHOTOS } from "./photos";
+
+
+export const HOTELS: Hotel[] = [
     {
         id: 1,
         name: 'Гостинница Ибис',
@@ -8,6 +12,7 @@ export const HOTELS = [
         stars: 3,
         latitude: 55.798643,
         longitude: 37.495824,
+        photos: PHOTOS[1]
     },
     {
         id: 2,
@@ -18,6 +23,7 @@ export const HOTELS = [
         stars: 4,
         latitude: 55.752167,
         longitude: 37.592548,
+        photos: PHOTOS[2]
     },
     {
         id: 3,
@@ -28,6 +34,7 @@ export const HOTELS = [
         stars: 4,
         latitude: 55.790558,
         longitude: 37.747072,
+        photos: PHOTOS[3]
     },
     {
         id: 4,
@@ -38,6 +45,7 @@ export const HOTELS = [
         stars: 4,
         latitude: 55.787912,
         longitude: 37.680586,
+        photos: PHOTOS[4]
     },
     {
         id: 5,
@@ -48,16 +56,18 @@ export const HOTELS = [
         stars: 4,
         latitude: 55.763923,
         longitude: 37.619093,
+        photos: PHOTOS[5]
     },
     {
         id: 6,
-        name: 'Отель Марриотт Империал Плаза',
+        name: 'Отель Марриотт Империал',
         price: '10000',
         rating: 9.4,
         reviews: 48,
         stars: 5,
         latitude: 55.776927,
         longitude: 37.661455,
+        photos: PHOTOS[6]
     },
     {
         id: 7,
@@ -68,6 +78,7 @@ export const HOTELS = [
         stars: 4,
         latitude: 55.758018,
         longitude: 37.604190,
+        photos: PHOTOS[7]
     },
     {
         id: 8,
@@ -78,6 +89,7 @@ export const HOTELS = [
         stars: 4,
         latitude: 55.751476,
         longitude: 37.586066,
+        photos: PHOTOS[8]
     },
     {
         id: 9,
@@ -88,6 +100,7 @@ export const HOTELS = [
         stars: 5,
         latitude: 55.783312,
         longitude: 37.560824,
+        photos: PHOTOS[9]
     },
     {
         id: 10,
@@ -98,6 +111,7 @@ export const HOTELS = [
         stars: 5,
         latitude: 55.798041,
         longitude: 37.377356,
+        photos: PHOTOS[10]
     },
     {
         id: 11,
@@ -141,7 +155,7 @@ export const HOTELS = [
     },
     {
         id: 15,
-        name: 'Отель Марриот Румс в Саду',
+        name: 'Отель Румс в Саду',
         price: '5190',
         rating: 8.9,
         reviews: 744,
@@ -321,7 +335,7 @@ export const HOTELS = [
     },
     {
         id: 33,
-        name: 'Апарт-отель DIAMOND APARTMENTS',
+        name: 'Отель DIAMOND APARTMENTS',
         price: '14900',
         rating: 9.1,
         reviews: 362,
