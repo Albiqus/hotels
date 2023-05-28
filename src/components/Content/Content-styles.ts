@@ -5,7 +5,7 @@ import mark from '../../images/icons/mark.png'
 export const Div = styled.div`
     width: 100%;
     height: auto;
-    background-color: rgb(235, 206, 206);
+     background-color: rgb(235, 206, 206);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

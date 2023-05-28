@@ -1,5 +1,4 @@
 import { RootState } from "../../store/store";
-import { Hotel } from "../../types/Hotel";
 import { getCurrentHotels } from "../../utils/getCurrentHotels";
 import { DescriptionWrapper, Div, HotelItem, Mark, MarkTitle, MarkWrapper, Name, Price, Rating, RattingWrapper, Reviews, Span } from "./Content-styles"
 import { useSelector } from 'react-redux'
@@ -12,10 +11,11 @@ import { YandexMap } from "./YandexMap/YandexMap";
 export const Content = () => {
     let { hotels } = useSelector((state: RootState) => state.content);
     let { currentPage } = useSelector((state: RootState) => state.pages);
-
+    
     const [mapHotelId, setMapHotelId] = useState(0)
 
     const currentHotels = getCurrentHotels(hotels, currentPage)
+    
 
     const onMarkClick = (e: any) => {
         const id = +e.currentTarget.getAttribute('id')
@@ -30,7 +30,7 @@ export const Content = () => {
         return (
             <HotelItem key={hotel.id} >
                 {mapHotelId === hotel.id && <YandexMap latitude={hotel.latitude} longitude={hotel.longitude} onCloseClick={onCloseLocationClick} />}
-                <ImageSlider photos={hotel.photos} />
+                <ImageSlider id={hotel.id} />
                 <DescriptionWrapper>
                     <Name>{hotel.name}</Name>
                     <Stars stars={hotel.stars} />

@@ -28,6 +28,128 @@ import ph9_3 from '../images/photos/9.3.jpg'
 import ph10_1 from '../images/photos/10.1.jpg'
 import ph10_2 from '../images/photos/10.2.jpg'
 import ph10_3 from '../images/photos/10.3.jpg'
+import ph11_1 from '../images/photos/11.1.jpg'
+import ph11_2 from '../images/photos/11.2.jpg'
+import ph11_3 from '../images/photos/11.3.jpg'
+import ph12_1 from '../images/photos/12.1.jpg'
+import ph12_2 from '../images/photos/12.2.jpg'
+import ph12_3 from '../images/photos/12.3.jpg'
+import ph13_1 from '../images/photos/13.1.jpg'
+import ph13_2 from '../images/photos/13.2.jpg'
+import ph13_3 from '../images/photos/13.3.jpg'
+import ph14_1 from '../images/photos/14.1.jpg'
+import ph14_2 from '../images/photos/14.2.jpg'
+import ph14_3 from '../images/photos/14.3.jpg'
+import ph15_1 from '../images/photos/15.1.jpg'
+import ph15_2 from '../images/photos/15.2.jpg'
+import ph15_3 from '../images/photos/15.3.jpg'
+import ph16_1 from '../images/photos/16.1.jpg'
+import ph16_2 from '../images/photos/16.2.jpg'
+import ph16_3 from '../images/photos/16.3.jpg'
+import ph17_1 from '../images/photos/17.1.jpg'
+import ph17_2 from '../images/photos/17.2.jpg'
+import ph17_3 from '../images/photos/17.3.jpg'
+import ph18_1 from '../images/photos/18.1.jpg'
+import ph18_2 from '../images/photos/18.2.jpg'
+import ph18_3 from '../images/photos/18.3.jpg'
+import ph19_1 from '../images/photos/19.1.jpg'
+import ph19_2 from '../images/photos/19.2.jpg'
+import ph19_3 from '../images/photos/19.3.jpg'
+import ph20_1 from '../images/photos/20.1.jpg'
+import ph20_2 from '../images/photos/20.2.jpg'
+import ph20_3 from '../images/photos/20.3.jpg'
+import ph21_1 from '../images/photos/21.1.jpg'
+import ph21_2 from '../images/photos/21.2.jpg'
+import ph21_3 from '../images/photos/21.3.jpg'
+import ph22_1 from '../images/photos/22.1.jpg'
+import ph22_2 from '../images/photos/22.2.jpg'
+import ph22_3 from '../images/photos/22.3.jpg'
+import ph23_1 from '../images/photos/23.1.jpg'
+import ph23_2 from '../images/photos/23.2.jpg'
+import ph23_3 from '../images/photos/23.3.jpg'
+import ph24_1 from '../images/photos/24.1.jpg'
+import ph24_2 from '../images/photos/24.2.jpg'
+import ph24_3 from '../images/photos/24.3.jpg'
+import ph25_1 from '../images/photos/25.1.jpg'
+import ph25_2 from '../images/photos/25.2.jpg'
+import ph25_3 from '../images/photos/25.3.jpg'
+import ph26_1 from '../images/photos/26.1.jpg'
+import ph26_2 from '../images/photos/26.2.jpg'
+import ph26_3 from '../images/photos/26.3.jpg'
+import ph27_1 from '../images/photos/27.1.jpg'
+import ph27_2 from '../images/photos/27.2.jpg'
+import ph27_3 from '../images/photos/27.3.jpg'
+import ph28_1 from '../images/photos/28.1.jpg'
+import ph28_2 from '../images/photos/28.2.jpg'
+import ph28_3 from '../images/photos/28.3.jpg'
+import ph29_1 from '../images/photos/29.1.jpg'
+import ph29_2 from '../images/photos/29.2.jpg'
+import ph29_3 from '../images/photos/29.3.jpg'
+import ph30_1 from '../images/photos/30.1.jpg'
+import ph30_2 from '../images/photos/30.2.jpg'
+import ph30_3 from '../images/photos/30.3.jpg'
+import ph31_1 from '../images/photos/31.1.jpg'
+import ph31_2 from '../images/photos/31.2.jpg'
+import ph31_3 from '../images/photos/31.3.jpg'
+import ph32_1 from '../images/photos/32.1.jpg'
+import ph32_2 from '../images/photos/32.2.jpg'
+import ph32_3 from '../images/photos/32.3.jpg'
+import ph33_1 from '../images/photos/33.1.jpg'
+import ph33_2 from '../images/photos/33.2.jpg'
+import ph33_3 from '../images/photos/33.3.jpg'
+import ph34_1 from '../images/photos/34.1.jpg'
+import ph34_2 from '../images/photos/34.2.jpg'
+import ph34_3 from '../images/photos/34.3.jpg'
+import ph35_1 from '../images/photos/35.1.jpg'
+import ph35_2 from '../images/photos/35.2.jpg'
+import ph35_3 from '../images/photos/35.3.jpg'
+import ph36_1 from '../images/photos/36.1.jpg'
+import ph36_2 from '../images/photos/36.2.jpg'
+import ph36_3 from '../images/photos/36.3.jpg'
+import ph37_1 from '../images/photos/37.1.jpg'
+import ph37_2 from '../images/photos/37.2.jpg'
+import ph37_3 from '../images/photos/37.3.jpg'
+import ph38_1 from '../images/photos/38.1.jpg'
+import ph38_2 from '../images/photos/38.2.jpg'
+import ph38_3 from '../images/photos/38.3.jpg'
+import ph39_1 from '../images/photos/39.1.jpg'
+import ph39_2 from '../images/photos/39.2.jpg'
+import ph39_3 from '../images/photos/39.3.jpg'
+import ph40_1 from '../images/photos/40.1.jpg'
+import ph40_2 from '../images/photos/40.2.jpg'
+import ph40_3 from '../images/photos/40.3.jpg'
+import ph41_1 from '../images/photos/41.1.jpg'
+import ph41_2 from '../images/photos/41.2.jpg'
+import ph41_3 from '../images/photos/41.3.jpg'
+import ph42_1 from '../images/photos/42.1.jpg'
+import ph42_2 from '../images/photos/42.2.jpg'
+import ph42_3 from '../images/photos/42.3.jpg'
+import ph43_1 from '../images/photos/43.1.jpg'
+import ph43_2 from '../images/photos/43.2.jpg'
+import ph43_3 from '../images/photos/43.3.jpg'
+import ph44_1 from '../images/photos/44.1.jpg'
+import ph44_2 from '../images/photos/44.2.jpg'
+import ph44_3 from '../images/photos/44.3.jpg'
+import ph45_1 from '../images/photos/45.1.jpg'
+import ph45_2 from '../images/photos/45.2.jpg'
+import ph45_3 from '../images/photos/45.3.jpg'
+import ph46_1 from '../images/photos/46.1.jpg'
+import ph46_2 from '../images/photos/46.2.jpg'
+import ph46_3 from '../images/photos/46.3.jpg'
+import ph47_1 from '../images/photos/47.1.jpg'
+import ph47_2 from '../images/photos/47.2.jpg'
+import ph47_3 from '../images/photos/47.3.jpg'
+import ph48_1 from '../images/photos/48.1.jpg'
+import ph48_2 from '../images/photos/48.2.jpg'
+import ph48_3 from '../images/photos/48.3.jpg'
+import ph49_1 from '../images/photos/49.1.jpg'
+import ph49_2 from '../images/photos/49.2.jpg'
+import ph49_3 from '../images/photos/49.3.jpg'
+import ph50_1 from '../images/photos/50.1.jpg'
+import ph50_2 from '../images/photos/50.2.jpg'
+import ph50_3 from '../images/photos/50.3.jpg'
+
+
 import { Photos } from '../types/Photos'
 
 
@@ -42,4 +164,44 @@ export const PHOTOS: Photos = {
     8: [ph8_1, ph8_2, ph8_3],
     9: [ph9_1, ph9_2, ph9_3],
     10: [ph10_1, ph10_2, ph10_3],
+    11: [ph11_1, ph11_2, ph11_3],
+    12: [ph12_1, ph12_2, ph12_3],
+    13: [ph13_1, ph13_2, ph13_3],
+    14: [ph14_1, ph14_2, ph14_3],
+    15: [ph15_1, ph15_2, ph15_3],
+    16: [ph16_1, ph16_2, ph16_3],
+    17: [ph17_1, ph17_2, ph17_3],
+    18: [ph18_1, ph18_2, ph18_3],
+    19: [ph19_1, ph19_2, ph19_3],
+    20: [ph20_1, ph20_2, ph20_3],
+    21: [ph21_1, ph21_2, ph21_3],
+    22: [ph22_1, ph22_2, ph22_3],
+    23: [ph23_1, ph23_2, ph23_3],
+    24: [ph24_1, ph24_2, ph24_3],
+    25: [ph25_1, ph25_2, ph25_3],   
+    26: [ph26_1, ph26_2, ph26_3],
+    27: [ph27_1, ph27_2, ph27_3],
+    28: [ph28_1, ph28_2, ph28_3],
+    29: [ph29_1, ph29_2, ph29_3],
+    30: [ph30_1, ph30_2, ph30_3],
+    31: [ph31_1, ph31_2, ph31_3],
+    32: [ph32_1, ph32_2, ph32_3],
+    33: [ph33_1, ph33_2, ph33_3],
+    34: [ph34_1, ph34_2, ph34_3],
+    35: [ph35_1, ph35_2, ph35_3],
+    36: [ph36_1, ph36_2, ph36_3],
+    37: [ph37_1, ph37_2, ph37_3],
+    38: [ph38_1, ph38_2, ph38_3],
+    39: [ph39_1, ph39_2, ph39_3],
+    40: [ph40_1, ph40_2, ph40_3],
+    41: [ph41_1, ph41_2, ph41_3],
+    42: [ph42_1, ph42_2, ph42_3],
+    43: [ph43_1, ph43_2, ph43_3],
+    44: [ph44_1, ph44_2, ph44_3],
+    45: [ph45_1, ph45_2, ph45_3],
+    46: [ph46_1, ph46_2, ph46_3],
+    47: [ph47_1, ph47_2, ph47_3],
+    48: [ph48_1, ph48_2, ph48_3],
+    49: [ph49_1, ph49_2, ph49_3],
+    50: [ph50_1, ph50_2, ph50_3],
 }

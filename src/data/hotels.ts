@@ -12,7 +12,6 @@ export const HOTELS: Hotel[] = [
         stars: 3,
         latitude: 55.798643,
         longitude: 37.495824,
-        photos: PHOTOS[1]
     },
     {
         id: 2,
@@ -23,7 +22,6 @@ export const HOTELS: Hotel[] = [
         stars: 4,
         latitude: 55.752167,
         longitude: 37.592548,
-        photos: PHOTOS[2]
     },
     {
         id: 3,
@@ -34,7 +32,6 @@ export const HOTELS: Hotel[] = [
         stars: 4,
         latitude: 55.790558,
         longitude: 37.747072,
-        photos: PHOTOS[3]
     },
     {
         id: 4,
@@ -45,7 +42,6 @@ export const HOTELS: Hotel[] = [
         stars: 4,
         latitude: 55.787912,
         longitude: 37.680586,
-        photos: PHOTOS[4]
     },
     {
         id: 5,
@@ -56,7 +52,6 @@ export const HOTELS: Hotel[] = [
         stars: 4,
         latitude: 55.763923,
         longitude: 37.619093,
-        photos: PHOTOS[5]
     },
     {
         id: 6,
@@ -67,7 +62,6 @@ export const HOTELS: Hotel[] = [
         stars: 5,
         latitude: 55.776927,
         longitude: 37.661455,
-        photos: PHOTOS[6]
     },
     {
         id: 7,
@@ -78,7 +72,6 @@ export const HOTELS: Hotel[] = [
         stars: 4,
         latitude: 55.758018,
         longitude: 37.604190,
-        photos: PHOTOS[7]
     },
     {
         id: 8,
@@ -89,7 +82,6 @@ export const HOTELS: Hotel[] = [
         stars: 4,
         latitude: 55.751476,
         longitude: 37.586066,
-        photos: PHOTOS[8]
     },
     {
         id: 9,
@@ -100,7 +92,6 @@ export const HOTELS: Hotel[] = [
         stars: 5,
         latitude: 55.783312,
         longitude: 37.560824,
-        photos: PHOTOS[9]
     },
     {
         id: 10,
@@ -111,7 +102,6 @@ export const HOTELS: Hotel[] = [
         stars: 5,
         latitude: 55.798041,
         longitude: 37.377356,
-        photos: PHOTOS[10]
     },
     {
         id: 11,
@@ -135,13 +125,13 @@ export const HOTELS: Hotel[] = [
     },
     {
         id: 13,
-        name: 'Отель Moscow Holiday',
-        price: '3510',
-        rating: 8.9,
-        reviews: 1380,
+        name: 'Гостиница Аэростар',
+        price: '3485',
+        rating: 9.3,
+        reviews: 3905,
         stars: 4,
-        latitude: 55.773723,
-        longitude: 37.499495,
+        latitude: 55.790708, 
+        longitude: 37.547691,
     },
     {
         id: 14,
