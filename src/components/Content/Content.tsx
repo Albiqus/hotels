@@ -6,15 +6,19 @@ import { ImageSlider } from "./ImageSlider/ImageSlider";
 import { Stars } from "./Stars/Stars";
 import { useState } from "react";
 import { YandexMap } from "./YandexMap/YandexMap";
+import { getSortedHotels } from "../../utils/getSortedHotels";
+import { getFormattedPrice } from "../../utils/getFormattedPrice";
 
 
 export const Content = () => {
     let { hotels } = useSelector((state: RootState) => state.content);
     let { currentPage } = useSelector((state: RootState) => state.pages);
-    
+    let { sortingMode, gradationMode } = useSelector((state: RootState) => state.sorting);
+
     const [mapHotelId, setMapHotelId] = useState(0)
 
-    const currentHotels = getCurrentHotels(hotels, currentPage)
+    const sortedHotels = getSortedHotels(hotels, sortingMode, gradationMode)
+    const currentHotels = getCurrentHotels(sortedHotels, currentPage)
     
 
     const onMarkClick = (e: any) => {
@@ -39,7 +43,7 @@ export const Content = () => {
                     </RattingWrapper>
 
                     <Reviews>{hotel.reviews} отзывов</Reviews>
-                    <Price><Span>{hotel.price}</Span> р/сут</Price>
+                    <Price><Span>{getFormattedPrice(hotel.price)}</Span> р/сут</Price>
                     <MarkWrapper id={hotel.id} onClick={onMarkClick}>
                         <Mark />
                         <MarkTitle >показать на карте</MarkTitle>

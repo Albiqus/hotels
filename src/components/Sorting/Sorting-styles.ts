@@ -22,8 +22,8 @@ width: 450px;
 export const Popularity = styled.div`
 width: 130px;
 height: 40px;
-background-color: ${(props: SortingModeProps) => props.sortingMode === 'popularity' ? '#3695d5;' : 'white'};
-color: ${(props: SortingModeProps) => props.sortingMode === 'popularity' ? 'white' : 'black'};
+background-color: ${(props: SortingModeProps) => props.sortingMode === 'reviews' ? '#3695d5;' : 'white'};
+color: ${(props: SortingModeProps) => props.sortingMode === 'reviews' ? 'white' : 'black'};
 display: flex;
 justify-content: center;
 align-items: center;
@@ -94,4 +94,7 @@ bottom: -10px;
 left: 140px;
 text-decoration: underline;
 user-select: none;
+&:hover{
+    cursor: pointer;
+}
 `

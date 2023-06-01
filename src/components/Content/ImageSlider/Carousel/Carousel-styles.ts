@@ -26,7 +26,7 @@ export const appearance = keyframes`
     opacity: 0;
   }
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 `
 
@@ -59,7 +59,7 @@ background-repeat: no-repeat;
 display: none;
 animation: ${appearance} 1s forwards;
 &:hover{
-     cursor: pointer;
+    cursor: pointer;
     background-color: rgba(0, 0, 0, 0.5)
 }
 `

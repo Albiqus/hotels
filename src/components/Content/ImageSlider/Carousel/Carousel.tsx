@@ -35,7 +35,6 @@ export const Carousel = ({ children }: any) => {
 
     return (
         <Div>
-
             <Demo>
                 <ArrowLeft onClick={onLeftArrowClick} />
                 <AllItems offset={offset}>{pages}</AllItems>

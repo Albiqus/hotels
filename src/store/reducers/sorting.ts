@@ -1,8 +1,9 @@
-import {  SET_SORTING_MODE } from "../../data/actionTypes";
+import {  SET_GRADATION_MODE, SET_SORTING_MODE } from "../../data/actionTypes";
 
 
 const startState = {
-    sortingMode: 1,
+    sortingMode: 'reviews',
+    gradationMode: 'по убыванию', 
 }
 
 
@@ -12,8 +13,16 @@ export const sorting = (state = startState, action: any) => {
             return {
                 ...state,
                 sortingMode: action.payload
+            
             }
         }
+        case SET_GRADATION_MODE: {
+            return {
+                ...state,
+                gradationMode: action.payload
+
+            }
+        } 
         default:
             return state;
     }
