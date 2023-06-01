@@ -9,14 +9,13 @@ export const Div = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 50px;
 `
 
 export const HotelItem = styled.div`
     position: relative;
     width: 800px;
     height: 206px;
-    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: rgb(240, 230, 230);;
     display: flex;
     flex-wrap: wrap;
@@ -95,4 +94,11 @@ margin: 0;
 margin-top: 10px;
 margin-left: 5px;
 text-decoration: underline;
+`
+
+export const P = styled.p`
+margin: 0;
+font-size: 20px;
+font-family: custom;
+margin-top: 50px;
 `

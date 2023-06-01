@@ -435,7 +435,7 @@ export const HOTELS: Hotel[] = [
     },
     {
         id: 44,
-        name: 'Апарт-отель Измайловский парк',
+        name: 'Отель Измайловский парк',
         price: '3200',
         rating: 9.4,
         reviews: 1372,

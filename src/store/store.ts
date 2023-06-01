@@ -1,3 +1,4 @@
+import { search } from './reducers/search';
 import { sorting } from './reducers/sorting';
 import { pages } from './reducers/pages';
 import { content } from './reducers/content';
@@ -7,7 +8,8 @@ import { createStore, combineReducers } from "redux";
 let reducers = combineReducers({
     content,
     pages,
-    sorting
+    sorting,
+    search
 })
 
 let store = createStore(reducers)

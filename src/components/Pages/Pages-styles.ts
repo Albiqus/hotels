@@ -5,7 +5,6 @@ import { PageItemProps } from "../../types/props/PageItemProps";
 export const Div = styled.div`
     width:320px;
     height: 100px;
-    /* background-color: rgb(235, 206, 206); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,10 +14,11 @@ export const Wrapper = styled.div`
 width: 320px;
 height: 32px;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 `
 
 export const PageItem = styled.div`
+margin: 0px 5px 0px 5px;
 width: 32px;
 height: 32px;
 background-color: white;

@@ -2,16 +2,23 @@ import { useDispatch, useSelector } from "react-redux";
 import { ArrowLeft, ArrowRight, Div, P, PageItem, Wrapper } from "./Pages-styles"
 import { RootState } from "../../store/store";
 import { setCurrentPage } from "../../actionCreators/setCurrentPage";
+import { getFoundedHotels } from "../../utils/getFoundedHotels";
 
 
 export const Pages = () => {
 
     const dispatch = useDispatch()
-    
+
     let { currentPage } = useSelector((state: RootState) => state.pages);
+    let { searchValue } = useSelector((state: RootState) => state.search);
+    let { hotels } = useSelector((state: RootState) => state.content);
+
+    const foundedHotels = getFoundedHotels(hotels, searchValue)
+    const pagesCount = Math.ceil(foundedHotels.length / 10)
+
 
     const pages = []
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= pagesCount; i++) {
         pages.push({ id: i })
     }
 
@@ -27,7 +34,7 @@ export const Pages = () => {
     }
 
     const onNextPageClick = () => {
-        if (currentPage === 5) return
+        if (currentPage === pagesCount) return
         dispatch(setCurrentPage(currentPage + 1))
     }
 
@@ -38,13 +45,13 @@ export const Pages = () => {
             </PageItem>
         )
     })
-
+  
     return (
         <Div>
             <Wrapper>
-                <ArrowLeft onClick={onPrevPageClick} />
+                {pagesCount > 0 && <ArrowLeft onClick={onPrevPageClick} />}
                 {pageItems}
-                <ArrowRight onClick={onNextPageClick} />
+                {pagesCount > 0 && <ArrowRight onClick={onNextPageClick} />}
             </Wrapper>
         </Div>
     )
